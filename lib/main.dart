@@ -18,21 +18,14 @@ class LogIn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Log in'),
+        title: Text('Log in TEST'),
         backgroundColor: Colors.redAccent,
         centerTitle: true,
-        leading: IconButton(
-            icon: Icon(Icons.menu),
-            onPressed: (){}
-        ),
+        leading: IconButton(icon: Icon(Icons.menu), onPressed: () {}),
         actions: <Widget>[
-          IconButton(
-              icon: Icon(Icons.search),
-              onPressed: (){}
-          )
+          IconButton(icon: Icon(Icons.search), onPressed: () {})
         ],
       ),
     );
   }
 }
-
