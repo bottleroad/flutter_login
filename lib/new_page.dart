@@ -15,8 +15,6 @@ class MyApp extends StatelessWidget {
 }
 
 class LogIn extends StatelessWidget {
-  const LogIn({ Key? key }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
